@@ -1,0 +1,25 @@
+# Local notes
+.local/
+
+# Simulation outputs
+*.vcd
+*.fst
+*.vvp
+a.out
+
+# Vivado
+.Xil/
+*.jou
+*.log
+*.str
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.gen/
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
