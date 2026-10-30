@@ -1,6 +1,3 @@
-# Local notes
-.local/
-
 # Simulation outputs
 *.vcd
 *.fst

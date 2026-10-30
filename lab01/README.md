@@ -1,4 +1,4 @@
-# Lab 1 – Combinational Verilog (Structural)
+# Lab 1 - Combinational Verilog (Structural)
 
 Introduction to Verilog: modules, built-in gate primitives, wires, and module instantiation.
 

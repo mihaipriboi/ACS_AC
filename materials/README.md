@@ -2,12 +2,12 @@
 
 Everything in this folder was downloaded from Moodle and renamed for clarity. The documents themselves are in **Romanian** (except the English books and board manual).
 
-## Lab handouts – [`labs/`](labs/)
+## Lab handouts - [`labs/`](labs/)
 
 | # | File | Topic | Main contents |
 |---|------|-------|---------------|
 | 0 | [lab00-review-digital-logic.pdf](labs/lab00-review-digital-logic.pdf) | Review | Logic gates, 4:1 MUX, half/full adders, ripple-carry adder, D flip-flop, FSMs ("ba" sequence detector, traffic light) |
-| 1 | [lab01-verilog-combinational-structural.pdf](labs/lab01-verilog-combinational-structural.pdf) | Combinational Verilog | Why Verilog, modules, primitives (`and`, `or`, `xor`, …), wires & buses |
+| 1 | [lab01-verilog-combinational-structural.pdf](labs/lab01-verilog-combinational-structural.pdf) | Combinational Verilog | Why Verilog, modules, primitives (`and`, `or`, `xor`, ...), wires & buses |
 | 2 | [lab02-verilog-combinational-assign-parameters-testbenches.pdf](labs/lab02-verilog-combinational-assign-parameters-testbenches.pdf) | Combinational Verilog | `assign`, constants, operators, `parameter`, `` `define ``, testbenches (`initial`, `$display`) |
 | 3 | [lab03-verilog-combinational-reg-always.pdf](labs/lab03-verilog-combinational-reg-always.pdf) | Combinational Verilog | `reg`, `if`/`case`, `always @(*)` |
 | 4 | [lab04-verilog-sequential-flipflops-debouncer.pdf](labs/lab04-verilog-sequential-flipflops-debouncer.pdf) | Sequential Verilog | `always @(posedge clk)`, non-blocking assignments, D flip-flop, debouncer |
@@ -19,9 +19,9 @@ Everything in this folder was downloaded from Moodle and renamed for clarity. Th
 | 10 | [lab10-didactic-computer-control-unit.pdf](labs/lab10-didactic-computer-control-unit.pdf) | Didactic computer | Control unit FSM, instruction encoding, register-direct addressing |
 | 11 | [lab11-didactic-computer-addressing-modes.pdf](labs/lab11-didactic-computer-addressing-modes.pdf) | Didactic computer | Addressing modes |
 
-## Lecture notes – [`lecture-notes/`](lecture-notes/)
+## Lecture notes - [`lecture-notes/`](lecture-notes/)
 
-*Arhitectura Calculatoarelor* – N. Țăpuș, T. Moisa, C. Morărescu.
+*Arhitectura Calculatoarelor* - N. Țăpuș, T. Moisa, C. Morărescu.
 
 | # | File | Topic |
 |---|------|-------|
@@ -35,28 +35,28 @@ Everything in this folder was downloaded from Moodle and renamed for clarity. Th
 | 8 | [ac08-interrupt-system.pdf](lecture-notes/ac08-interrupt-system.pdf) | Interrupt system design |
 | 9 | [ac09-microprogramming.pdf](lecture-notes/ac09-microprogramming.pdf) | Microprogrammed control unit |
 
-## Books – [`books/`](books/)
+## Books - [`books/`](books/)
 
 | File | Description |
 |------|-------------|
-| [padmanabhan-design-through-verilog-hdl.pdf](books/padmanabhan-design-through-verilog-hdl.pdf) | T. R. Padmanabhan, B. Bala Tripura Sundari – *Design Through Verilog HDL* (IEEE Press, full book) |
-| [harris-ch4-hardware-description-languages.pdf](books/harris-ch4-hardware-description-languages.pdf) | Harris & Harris – *Digital Design and Computer Architecture*, Ch. 4: HDLs (Verilog & VHDL side by side) |
+| [padmanabhan-design-through-verilog-hdl.pdf](books/padmanabhan-design-through-verilog-hdl.pdf) | T. R. Padmanabhan, B. Bala Tripura Sundari - *Design Through Verilog HDL* (IEEE Press, full book) |
+| [harris-ch4-hardware-description-languages.pdf](books/harris-ch4-hardware-description-languages.pdf) | Harris & Harris - *Digital Design and Computer Architecture*, Ch. 4: HDLs (Verilog & VHDL side by side) |
 
-## FPGA board – [`board/`](board/)
+## FPGA board - [`board/`](board/)
 
 | File | Description |
 |------|-------------|
 | [nexys4ddr-reference-manual.pdf](board/nexys4ddr-reference-manual.pdf) | Digilent Nexys4 DDR reference manual (Artix-7 `XC7A100T-1CSG324C`) |
 | [nexys4ddr-master.xdc](board/nexys4ddr-master.xdc) | Vivado constraints file (pin mapping); originally `Nexys4DDR_Master.xdc.txt` |
 
-## Guides – [`guides/`](guides/)
+## Guides - [`guides/`](guides/)
 
 | File | Description |
 |------|-------------|
 | [vivado-verification-and-debugging.pdf](guides/vivado-verification-and-debugging.pdf) | Vivado: testing with VIO, simulation, and ILA (Integrated Logic Analyzer) |
 
-## Tools – [`tools/`](tools/)
+## Tools - [`tools/`](tools/)
 
 | Folder | Description |
 |--------|-------------|
-| [evita-verilog/](tools/evita-verilog/) | EVITA Verilog – interactive Verilog tutorial (Windows, run `EVITA_VERILOG.exe`) |
+| [evita-verilog/](tools/evita-verilog/) | EVITA Verilog - interactive Verilog tutorial (Windows, run `EVITA_VERILOG.exe`) |
