@@ -10,6 +10,8 @@ Procedural behavioral description: `reg` variables, control constructs, and `alw
 |---|----------|-------------|-------|
 | 1 | [4-bit multiplier](ex1-multiplier4/) | 4-bit multiplier with an 8-bit product, written without the multiplication operator | `multiplier.v`, `multiplier_test.v` |
 | 2 | [7-segment display](ex2-seven-seg/) | 7-segment decoder for the digits 0-9, written as a ROM in a combinational `always` block | `seven_seg.v`, `seven_seg_test.v` |
+| 3 | [4-bit ALU](ex3-ual/) | 4-bit ALU with an 8-bit result and two operations chosen by `sel`; the operations are assigned per student on Moodle | `ual.v` |
+| 4 | [Generic ALU](ex4-generic-ual/) | ALU with `width`-bit operands and a `2*width`-bit result; the default width and the operations are assigned per student on Moodle | `ual.v` |
 
 ## Key concepts
 
