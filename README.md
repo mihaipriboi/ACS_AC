@@ -20,7 +20,18 @@ ACS_AC/
 │   ├── ex3-ual/            # 4-bit ALU with two operations
 │   └── ex4-generic-ual/    # ALU with a parameterized width
 ├── lab04/                  # Lab 4 - Sequential Verilog
-│   └── ex1-fsm-ba/         # Moore FSM recognizing the "ba" sequence
+│   ├── ex1-fsm-ba/         # Moore FSM recognizing the "ba" sequence
+│   └── ex2-traffic-lights/ # Pedestrian crossing traffic light FSM
+├── lab05/                  # Lab 5 - Sequential Verilog (FSMs and memory)
+│   ├── ex1a-mealy-fsm/     # 4-state Mealy FSM given by its state table
+│   ├── ex1b-moore-fsm/     # 3-state Moore FSM given by its state table
+│   ├── ex2-sequential-multiplier/ # FSM multiplying through parameterized registers
+│   └── ex3-ram-reader/     # FSM reading a block RAM
+├── lab06/                  # Lab 6 - Arithmetic logic unit (ALU)
+│   ├── ex1-alu-adc/        # ADC operation with condition flags
+│   └── ex2-alu-ops/        # SBB1, logic and shift operations with flags
+├── lab07/                  # Lab 7 - Simulation and synthesis
+│   └── ex1-syntax-errors/  # Fix the syntax errors in a given module
 ├── materials/              # Course materials downloaded from Moodle
 │   ├── labs/               # Lab handouts (lab00 ... lab11)
 │   ├── lecture-notes/      # Lecture notes (ac01 ... ac09)
@@ -39,6 +50,9 @@ ACS_AC/
 | 02 | Combinational Verilog - `assign`, operators, `parameter`, testbenches | [`lab02/`](lab02/) |
 | 03 | Combinational Verilog - `reg`, `if`/`case`, `always` blocks | [`lab03/`](lab03/) |
 | 04 | Sequential Verilog - `always @(posedge clk)`, non-blocking assignments, FSMs | [`lab04/`](lab04/) |
+| 05 | Sequential Verilog - Mealy and Moore FSMs, registers, RAM | [`lab05/`](lab05/) |
+| 06 | Arithmetic logic unit - 16-bit ALU, condition flags (C, S, Z, P, O), shifts | [`lab06/`](lab06/) |
+| 07 | Simulation and synthesis - testbenches, waveforms, FPGA architecture | [`lab07/`](lab07/) |
 
 See [`materials/README.md`](materials/README.md) for the full list of lab handouts and lecture notes.
 

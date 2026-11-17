@@ -10,6 +10,7 @@ Sequential logic: edge-triggered `always` blocks, non-blocking assignments, flip
 | # | Exercise | Description | Files |
 |---|----------|-------------|-------|
 | 1 | [FSM 'ba'](ex1-fsm-ba/) | Moore FSM that recognizes the "ba" sequence on a 1-bit character input | `ba.v`, `ba_test.v` |
+| 2 | [Traffic lights](ex2-traffic-lights/) | Pedestrian crossing traffic light: FSM that sets each phase's colors and duration, timed by a provided down counter | `counter.v`, `fsm_trecere.v`, `trecere.v`, `trecere_test.v` |
 
 ## Key concepts
 
